@@ -2,6 +2,12 @@
 
 h1 {
   font-family: "Roboto Slab";
+  font-size: 4em;
+}
+
+h2 {
+  font-family: "Roboto Slab";
+  font-size: 2em;
 }
 
 body {
@@ -27,4 +33,17 @@ body {
 
 .hero-text {
   text-align: center;
+}
+
+.section {
+  margin: 1em 2em;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.card-section {
+  padding: 0.5em 2em;
 }
