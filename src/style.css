@@ -3,6 +3,7 @@
 h1 {
   font-family: "Roboto Slab";
   font-size: 4em;
+  margin: 0.25em;
 }
 
 h2 {
@@ -28,7 +29,7 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
-  background-image: linear-gradient(to top, #f7f9fc, rgba(255, 0, 0, 0));
+  background-image: linear-gradient(to top, #f7f9fc, rgba(247, 249, 252, 0.3));
 }
 
 .hero-text {
