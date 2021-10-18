@@ -3,12 +3,13 @@
 h1 {
   font-family: "Roboto Slab";
   font-size: 4em;
-  margin: 0.25em;
+  margin: 0 0.25em;
 }
 
 h2 {
   font-family: "Roboto Slab";
   font-size: 2em;
+  margin: 0.25em 0;
 }
 
 body {
@@ -46,5 +47,5 @@ body {
 }
 
 .card-section {
-  padding: 0.5em 2em;
+  padding: 1em 2em;
 }
