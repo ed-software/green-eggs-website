@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab&display=swap");
+
+h1 {
+  font-family: "Roboto Slab";
+}
+
+body {
+  font-family: "Lato";
+  margin: 0;
+  background-color: #f7f9fc;
+}
+
+.hero {
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+}
+
+.hero-gradient {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background-image: linear-gradient(to top, #f7f9fc, rgba(255, 0, 0, 0));
+}
+
+.hero-text {
+  text-align: center;
+}
