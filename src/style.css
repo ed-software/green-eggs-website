@@ -31,7 +31,7 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
-  background-image: linear-gradient(to top, #f7f9fc, rgba(247, 249, 252, 0.3));
+  background-image: linear-gradient(to top, rgba(247, 249, 252, 1), rgba(179, 203, 186, 0.5));
 }
 
 .hero-text {
