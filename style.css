@@ -131,6 +131,9 @@ body {
 
 .footer {
   margin: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 a {
