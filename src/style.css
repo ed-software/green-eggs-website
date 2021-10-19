@@ -8,7 +8,7 @@ h1 {
 
 h2 {
   font-family: "Lato";
-  font-size: 2rem;
+  font-size: 1.75rem;
   margin: 0.25rem 0;
 }
 
@@ -64,18 +64,55 @@ body {
   margin-top: 0
 }
 
+
 .navbar {
-  list-style-type: none;
   display: flex;
   background-color: white;
   margin: 0;
   padding: 1rem 2rem;
-  flex-wrap:wrap;
-  gap: 1rem;
   border-bottom: 0.0625rem solid #e4e9f2;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width:768px) {
+  .navbar {
+    display: none;
+  }
+}
+.navbar-list {
+  gap: 1rem;
+  list-style-type: none;
+  display: flex;
+  flex-wrap:wrap;
+  flex-shrink: 1
 }
 
-.navbar-itrem {
-  /* color: white; */
-  font-weight: bold;
+.navbar-link {
+  color: #192038;
+  text-decoration: none;
+  font-weight: 800;
+  padding: 0.5rem;
+}
+
+.navbar-link:hover {
+  color: #078471;
+  background-color:rgba(179, 203, 186, 0.5);
+  border-radius: 0.25rem;
+}
+
+.navbar-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+
+}
+
+.navbar-logo > h3 {
+  font-family: "Roboto Slab";
+  margin: 0;
+  white-space: nowrap;
 }
