@@ -124,3 +124,7 @@ body {
   margin: 0;
   white-space: nowrap;
 }
+
+.footer {
+  margin: 1rem 2rem;
+}
