@@ -2,14 +2,14 @@
 
 h1 {
   font-family: "Roboto Slab";
-  font-size: 3.5em;
-  margin: 0 0.25em;
+  font-size: 3.5rem;
+  margin: 0 0.25rem;
 }
 
 h2 {
-  font-family: "Roboto Slab";
-  font-size: 2em;
-  margin: 0.25em 0;
+  font-family: "Lato";
+  font-size: 2rem;
+  margin: 0.25rem 0;
 }
 
 body {
@@ -28,25 +28,54 @@ body {
 
 .hero-gradient {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   flex: 1;
   background-image: linear-gradient(to top, rgba(247, 249, 252, 1), rgba(179, 203, 186, 0.5));
 }
 
-.hero-text {
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 .section {
-  margin: 1em 2em;
+  margin: 1rem 2rem;
 }
 
 .card {
   background-color: white;
-  border-radius: 10px;
+  border: 0.0625rem solid #e4e9f2;
+  border-radius: 0.25rem;
+}
+
+.card-header {
+  padding: 1rem 2rem 0 2rem 
 }
 
 .card-section {
-  padding: 1em 2em;
+  padding: 1rem 2rem;
+}
+
+.card-section > p:first-child {
+  margin-top: 0
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  background-color: white;
+  margin: 0;
+  padding: 1rem 2rem;
+  flex-wrap:wrap;
+  gap: 1rem;
+  border-bottom: 0.0625rem solid #e4e9f2;
+}
+
+.navbar-itrem {
+  /* color: white; */
+  font-weight: bold;
 }
