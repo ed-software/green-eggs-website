@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab&display=swap");
 
+.title {
+  margin: 0 0.25rem;
+}
+
 h1 {
   font-family: "Roboto Slab";
   font-size: 3.5rem;
-  margin: 0 0.25rem;
 }
 
 h2 {
