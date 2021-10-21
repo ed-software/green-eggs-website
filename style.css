@@ -226,9 +226,10 @@ img {
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
+    bottom: -16px;
     width: 100%;
     text-align: center;
+    border-radius: 0.25rem;
 }
 
 /* The dots/bullets/indicators */
